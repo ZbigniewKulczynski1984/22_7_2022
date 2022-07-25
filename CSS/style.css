@@ -16,23 +16,45 @@ body {
     width: 200px;
     height: 200px;
     font-size: 50px;
-    line-height: 200px;
+    /* line-height: 200px; */
     /* background-color: gold; */
     border: 3px solid black;
 }
 
 section {
+    /* display: flex;
+    justify-content: flex-end;
+    justify-content: space-between; */
+    background-color: #678;
+    height: 600px;
+
     display: flex;
+
+    /* align-content: ; */
+    align-items: stretch;
+    
+    
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    /* line-height: 200; */
+    text-align: center;
 }
 
 .one {
     background-color: gold;
+    order: 1;
+    /* flex-grow: 1; */
     /* display: flex;
     flex-wrap: wrap; */
 }
 
 .two {
     background-color: green;
+    flex-shrink: 0;
+    order: -2;
     /* display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap; */
