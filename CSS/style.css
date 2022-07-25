@@ -46,6 +46,7 @@ section {
 .one {
     background-color: gold;
     order: 1;
+    align-self: center;
     /* flex-grow: 1; */
     /* display: flex;
     flex-wrap: wrap; */
